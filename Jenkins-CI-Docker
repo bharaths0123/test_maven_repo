@@ -2,7 +2,7 @@ pipeline {
   environment {
     dockerimagename = "bharaths0123/bharaths"
     registry_url = "https://registry.hub.docker.com"
-    registryCredential = 'my-docker-private-id'
+    registryCredential = 'docker_hub'
     }
     tools {
         maven 'maven3.8.6'
